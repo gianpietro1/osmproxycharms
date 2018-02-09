@@ -1,0 +1,13 @@
+name: vnfproxy
+summary: A layer for developing OSM "proxy" charms.
+maintainer: Adam Israel <adam.israel@canonical.com>
+description: |
+  VNF "proxy" charms are a lightweight version of a charm that, rather than
+  installing software on the same machine, execute commands over an ssh channel.
+series:
+  - trusty
+  - xenial
+tags:
+  - osm
+  - vnf
+subordinate: false

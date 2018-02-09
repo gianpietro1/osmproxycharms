@@ -1,0 +1,20 @@
+"name": "ubuntuvnf"
+"summary": "An example implemented in basic Ubuntu Cloud Image"
+"maintainer": "Gianpietro Lavado <glavado@whitestack.com>"
+"description": |
+  Provides multiple examples on proxy charm actions
+"tags":
+- "osm"
+- "vnf"
+- "misc"
+- "misc"
+- "osm"
+- "vnf"
+"series":
+- "trusty"
+- "xenial"
+- "trusty"
+- "xenial"
+- "trusty"
+- "xenial"
+"subordinate": !!bool "false"

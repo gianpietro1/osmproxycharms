@@ -1,0 +1,10 @@
+start:
+  description: "Stop the service on the VNF."
+stop:
+  description: "Stop the service on the VNF."
+restart:
+  description: "Stop the service on the VNF."
+reboot:
+  description: "Reboot the VNF virtual machine."
+upgrade:
+  description: "Upgrade the software on the VNF."

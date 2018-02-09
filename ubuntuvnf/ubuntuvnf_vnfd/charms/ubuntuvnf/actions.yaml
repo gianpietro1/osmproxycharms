@@ -1,0 +1,34 @@
+"start":
+  "description": "Stop the service on the VNF."
+"stop":
+  "description": "Stop the service on the VNF."
+"restart":
+  "description": "Stop the service on the VNF."
+"reboot":
+  "description": "Reboot the VNF virtual machine."
+"upgrade":
+  "description": "Upgrade the software on the VNF."
+"run":
+  "description": "Run an arbitrary command"
+  "params":
+    "command":
+      "description": "The command to execute."
+      "type": "string"
+      "default": ""
+  "required":
+  - "command"
+"generate-ssh-key":
+  "description": "Generate a new SSH keypair for this unit. This will replace any\
+    \ existing previously generated keypair."
+"verify-ssh-credentials":
+  "description": "Verify that this unit can authenticate with server specified by\
+    \ ssh-hostname and ssh-username."
+"get-ssh-public-key":
+  "description": "Get the public SSH key for this unit."
+"say-hello":
+  "description": "say hello to someone over the terminal"
+  "params":
+    "name":
+      "description": "the name"
+      "type": "string"
+      "default": "you"

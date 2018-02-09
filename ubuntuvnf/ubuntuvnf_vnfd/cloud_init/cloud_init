@@ -1,0 +1,5 @@
+#cloud-config
+hostname: ubuntuvnf
+password: ubuntu
+chpasswd: { expire: False }
+ssh_pwauth: True

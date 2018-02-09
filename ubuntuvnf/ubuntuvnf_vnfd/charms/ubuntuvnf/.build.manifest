@@ -1,0 +1,561 @@
+{
+  "layers": [
+    "layer:basic", 
+    "layer:vnfproxy", 
+    "layer:sshproxy", 
+    "ubuntuvnf", 
+    "build"
+  ], 
+  "signatures": {
+    "deps/layer/vnfproxy/actions/restart": [
+      "ubuntuvnf", 
+      "static", 
+      "100e0cd066c859e619a27661f48cc14b861efc34fdbcd058285a373069fb7a10"
+    ], 
+    "bin/layer_option": [
+      "layer:basic", 
+      "static", 
+      "621b556cd208005e131e9f648859294347da9376609745a73ca2e808dd2032f9"
+    ], 
+    "hooks/leader-settings-changed": [
+      "layer:basic", 
+      "static", 
+      "f976e7ff3e347d44dac22626507f2a88042ba913aeebca7ffdcd5f6179b83683"
+    ], 
+    "deps/layer/vnfproxy/reactive/vnfproxy.py": [
+      "ubuntuvnf", 
+      "static", 
+      "4b3ccba899d41cc33454835b756fba60d310c34781f77cb2b7d440e39f017425"
+    ], 
+    "deps/layer/vnfproxy/README.md": [
+      "ubuntuvnf", 
+      "static", 
+      "84c9a4232bd1ff8672b5633d329349533dbb3d9c64b2f0ca13ffafd7a3add55b"
+    ], 
+    "deps/layer/layer-sshproxy/metadata.yaml": [
+      "ubuntuvnf", 
+      "static", 
+      "b21414f983900ee64c0618a0400e6606a4fe9e0d35f8aea15c19fff673398b19"
+    ], 
+    "hooks/leader-elected": [
+      "layer:basic", 
+      "static", 
+      "f976e7ff3e347d44dac22626507f2a88042ba913aeebca7ffdcd5f6179b83683"
+    ], 
+    "reactive/__init__.py": [
+      "layer:basic", 
+      "static", 
+      "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    ], 
+    "tests/00-setup": [
+      "ubuntuvnf", 
+      "static", 
+      "111c079b81d260bbcd716dcf41672372a4cf4aaa14154b6c3055deeedae37a06"
+    ], 
+    "hooks/update-status": [
+      "layer:basic", 
+      "static", 
+      "f976e7ff3e347d44dac22626507f2a88042ba913aeebca7ffdcd5f6179b83683"
+    ], 
+    "deps/layer/vnfproxy/icon.svg": [
+      "ubuntuvnf", 
+      "static", 
+      "085f367baa9c4ec724561b6e0d5d167c14c4295d6311b719a57729a17ac025c7"
+    ], 
+    "deps/layer/layer-basic/wheelhouse.txt": [
+      "ubuntuvnf", 
+      "static", 
+      "2f19b10e72d7299f4fc53c33caa0ad425ebcef59231238b49bc45b10ab49ae16"
+    ], 
+    "deps/layer/layer-sshproxy/actions/get-ssh-public-key": [
+      "ubuntuvnf", 
+      "static", 
+      "d88c053583ba9f9f11051bd8162b970e48850c62f5a489f07a631cf4a19da503"
+    ], 
+    "actions.yaml": [
+      "ubuntuvnf", 
+      "dynamic", 
+      "7f9dbdb3ed06ba4dc4a8b079cf05a3090d846ca12c90d1e91565512305b86d69"
+    ], 
+    "deps/layer/layer-basic/README.md": [
+      "ubuntuvnf", 
+      "static", 
+      "92dcf485a5356407aa1c92da864dfc14c14bb6b9b15879fdcf75dd7f7a29c0bf"
+    ], 
+    "copyright": [
+      "layer:basic", 
+      "static", 
+      "f6740d66fd60b60f2533d9fcb53907078d1e20920a0219afce7182e2a1c97629"
+    ], 
+    "reactive/ubuntuvnf.py": [
+      "ubuntuvnf", 
+      "static", 
+      "581997c5c167a493a748c18f6110932b354a7d272a0824a086ea9b0dee069cd6"
+    ], 
+    "wheelhouse/PyYAML-3.12.tar.gz": [
+      "layer:basic", 
+      "dynamic", 
+      "592766c6303207a20efc445587778322d7f73b161bd994f227adaa341ba212ab"
+    ], 
+    "deps/layer/layer-sshproxy/layer.yaml": [
+      "ubuntuvnf", 
+      "static", 
+      "39480788cd00d70b19a3e0c6016608298e709a3f28b38f1ec2aa4df08d274634"
+    ], 
+    ".gitignore": [
+      "layer:sshproxy", 
+      "static", 
+      "17526a7f7312e7eefb932d1c514b7bc8425fab5bd1ade149e106ecf8bff67358"
+    ], 
+    "deps/layer/vnfproxy/actions/stop": [
+      "ubuntuvnf", 
+      "static", 
+      "ecd387df9e96d72f9484b4e7ef5eee5bfb21e28f4da1270bdaa9d64879f2ef2a"
+    ], 
+    "hooks/install": [
+      "layer:basic", 
+      "static", 
+      "f976e7ff3e347d44dac22626507f2a88042ba913aeebca7ffdcd5f6179b83683"
+    ], 
+    "deps/layer/vnfproxy/actions/start": [
+      "ubuntuvnf", 
+      "static", 
+      "5059df33c9eb06f044bda3dc6ffc999261b0c3bec329679904664b6f1bbb8846"
+    ], 
+    "deps/layer/layer-basic/hooks/hook.template": [
+      "ubuntuvnf", 
+      "static", 
+      "f976e7ff3e347d44dac22626507f2a88042ba913aeebca7ffdcd5f6179b83683"
+    ], 
+    "icon.svg": [
+      "ubuntuvnf", 
+      "static", 
+      "085f367baa9c4ec724561b6e0d5d167c14c4295d6311b719a57729a17ac025c7"
+    ], 
+    "deps/layer/layer-basic/metadata.yaml": [
+      "ubuntuvnf", 
+      "static", 
+      "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+    ], 
+    "wheelhouse/charmhelpers-0.18.4.tar.gz": [
+      "layer:basic", 
+      "dynamic", 
+      "40aac0970635961bf6137c461a7c7fadf6764d8b6a104c90d801e8d348952ac7"
+    ], 
+    "config.yaml": [
+      "ubuntuvnf", 
+      "dynamic", 
+      "38d42471f3d0fcaca02aa2f97566542437c7e58fb1b65551afb93598eba19d0d"
+    ], 
+    "deps/layer/layer-basic/hooks/stop": [
+      "ubuntuvnf", 
+      "static", 
+      "f976e7ff3e347d44dac22626507f2a88042ba913aeebca7ffdcd5f6179b83683"
+    ], 
+    "actions/restart": [
+      "layer:vnfproxy", 
+      "static", 
+      "100e0cd066c859e619a27661f48cc14b861efc34fdbcd058285a373069fb7a10"
+    ], 
+    "hooks/hook.template": [
+      "layer:basic", 
+      "static", 
+      "f976e7ff3e347d44dac22626507f2a88042ba913aeebca7ffdcd5f6179b83683"
+    ], 
+    "wheelhouse/netaddr-0.7.19.tar.gz": [
+      "layer:basic", 
+      "dynamic", 
+      "38aeec7cdd035081d3a4c306394b19d677623bf76fa0913f6695127c7753aefd"
+    ], 
+    "deps/layer/layer-basic/.gitignore": [
+      "ubuntuvnf", 
+      "static", 
+      "0da5c4dcda27cd6406e5bb81cbf68ddccaf728ac764ec15053a165c1449d87d9"
+    ], 
+    "deps/layer/layer-basic/hooks/start": [
+      "ubuntuvnf", 
+      "static", 
+      "f976e7ff3e347d44dac22626507f2a88042ba913aeebca7ffdcd5f6179b83683"
+    ], 
+    "deps/layer/layer-basic/Makefile": [
+      "ubuntuvnf", 
+      "static", 
+      "b7ab3a34e5faf79b96a8632039a0ad0aa87f2a9b5f0ba604e007cafb22190301"
+    ], 
+    "wheelhouse/pip-8.1.2.tar.gz": [
+      "layer:basic", 
+      "dynamic", 
+      "4d24b03ffa67638a3fa931c09fd9e0273ffa904e95ebebe7d4b1a54c93d7b732"
+    ], 
+    "deps/layer/layer-sshproxy/wheelhouse.txt": [
+      "ubuntuvnf", 
+      "static", 
+      "625a3d927a9e46bbea27034a7daa0cf059779659926b7de02c8c6ec3b61ed68d"
+    ], 
+    "deps/layer/layer-basic/hooks/leader-settings-changed": [
+      "ubuntuvnf", 
+      "static", 
+      "f976e7ff3e347d44dac22626507f2a88042ba913aeebca7ffdcd5f6179b83683"
+    ], 
+    "actions/run": [
+      "layer:sshproxy", 
+      "static", 
+      "d88c053583ba9f9f11051bd8162b970e48850c62f5a489f07a631cf4a19da503"
+    ], 
+    "README.ex": [
+      "ubuntuvnf", 
+      "static", 
+      "eb25333fb6ee2abc2d5dde329dfd6b4b2a6dd5516094e75354fb6cd84010afad"
+    ], 
+    "deps/layer/vnfproxy/hooks/collect-metrics": [
+      "ubuntuvnf", 
+      "static", 
+      "b7ea916d506ccc673fd07e2b63588271d9f3ed1b52ac1b2adb949b22f00d3f93"
+    ], 
+    "README.md": [
+      "layer:sshproxy", 
+      "static", 
+      "50e820ef48f60ca8ca1b327dba43d202a1f9ebaaaf31da7f64dc43d6bd17da7d"
+    ], 
+    "actions/upgrade": [
+      "layer:vnfproxy", 
+      "static", 
+      "a9e009d4b4aa5fa5c6139723bbd56ca46cde4c426618442cf696c565b8ba8172"
+    ], 
+    "deps/layer/layer-basic/hooks/leader-elected": [
+      "ubuntuvnf", 
+      "static", 
+      "f976e7ff3e347d44dac22626507f2a88042ba913aeebca7ffdcd5f6179b83683"
+    ], 
+    "lib/charms/sshproxy.py": [
+      "layer:sshproxy", 
+      "static", 
+      "bc6b49126cf7a889a7471023b53ab11e450ec2efd145cf7ea2315013d6d4a923"
+    ], 
+    "deps/layer/layer-sshproxy/.gitignore": [
+      "ubuntuvnf", 
+      "static", 
+      "17526a7f7312e7eefb932d1c514b7bc8425fab5bd1ade149e106ecf8bff67358"
+    ], 
+    "deps/layer/layer-basic/tox.ini": [
+      "ubuntuvnf", 
+      "static", 
+      "00b57a776ac313e92a52daa05d1fdb6056c21b3105b643d32610fd937664321b"
+    ], 
+    "deps/layer/layer-basic/requirements.txt": [
+      "ubuntuvnf", 
+      "static", 
+      "0f1c70d27e26005a96d66ad54482877ae20f7737693c833e29dd72bd6ac24892"
+    ], 
+    "reactive/sshproxy.py": [
+      "layer:sshproxy", 
+      "static", 
+      "ad657bac69ebc14c1041e0982ff1d247972b386ce5a72432c01788a2f2e3903a"
+    ], 
+    "hooks/config-changed": [
+      "layer:basic", 
+      "static", 
+      "f976e7ff3e347d44dac22626507f2a88042ba913aeebca7ffdcd5f6179b83683"
+    ], 
+    "deps/layer/layer-sshproxy/tests/00-setup": [
+      "ubuntuvnf", 
+      "static", 
+      "111c079b81d260bbcd716dcf41672372a4cf4aaa14154b6c3055deeedae37a06"
+    ], 
+    "actions/say-hello": [
+      "ubuntuvnf", 
+      "static", 
+      "bca164b7750ea13c9da05d8b5114fa071bbf7e2e2d2bbe947cc941af3d28606a"
+    ], 
+    "actions/start": [
+      "layer:vnfproxy", 
+      "static", 
+      "5059df33c9eb06f044bda3dc6ffc999261b0c3bec329679904664b6f1bbb8846"
+    ], 
+    "tests/10-deploy": [
+      "ubuntuvnf", 
+      "static", 
+      "e86869a56aa9e3eff583c3253f16cacc669c89cd1d2134cee71569beb1efb62e"
+    ], 
+    "deps/layer/vnfproxy/actions/reboot": [
+      "ubuntuvnf", 
+      "static", 
+      "a9e009d4b4aa5fa5c6139723bbd56ca46cde4c426618442cf696c565b8ba8172"
+    ], 
+    "wheelhouse/ecdsa-0.13.tar.gz": [
+      "layer:sshproxy", 
+      "dynamic", 
+      "64cf1ee26d1cde3c73c6d7d107f835fed7c6a2904aef9eac223d57ad800c43fa"
+    ], 
+    "deps/layer/layer-basic/copyright": [
+      "ubuntuvnf", 
+      "static", 
+      "f6740d66fd60b60f2533d9fcb53907078d1e20920a0219afce7182e2a1c97629"
+    ], 
+    "wheelhouse/Jinja2-2.10.tar.gz": [
+      "layer:basic", 
+      "dynamic", 
+      "f84be1bb0040caca4cea721fcbbbbd61f9be9464ca236387158b0feea01914a4"
+    ], 
+    "lib/charms/layer/execd.py": [
+      "layer:basic", 
+      "static", 
+      "fda8bd491032db1db8ddaf4e99e7cc878c6fb5432efe1f91cadb5b34765d076d"
+    ], 
+    "deps/layer/layer-basic/hooks/install": [
+      "ubuntuvnf", 
+      "static", 
+      "f976e7ff3e347d44dac22626507f2a88042ba913aeebca7ffdcd5f6179b83683"
+    ], 
+    "Makefile": [
+      "layer:basic", 
+      "static", 
+      "b7ab3a34e5faf79b96a8632039a0ad0aa87f2a9b5f0ba604e007cafb22190301"
+    ], 
+    "actions/get-ssh-public-key": [
+      "layer:sshproxy", 
+      "static", 
+      "d88c053583ba9f9f11051bd8162b970e48850c62f5a489f07a631cf4a19da503"
+    ], 
+    "wheelhouse/paramiko-1.16.3.tar.gz": [
+      "layer:sshproxy", 
+      "dynamic", 
+      "97d932fdb4fec9aadf6bea368123f3ee15b92199f92eb62666370c7fed62d072"
+    ], 
+    "deps/layer/layer-sshproxy/reactive/sshproxy.py": [
+      "ubuntuvnf", 
+      "static", 
+      "ad657bac69ebc14c1041e0982ff1d247972b386ce5a72432c01788a2f2e3903a"
+    ], 
+    ".build.manifest": [
+      "build", 
+      "dynamic", 
+      "unchecked"
+    ], 
+    "deps/layer/layer-sshproxy/tests/10-deploy": [
+      "ubuntuvnf", 
+      "static", 
+      "2ba75d812122f23e933197b26fed3d5673986a2ce0b6eeab916776fe0e1ff911"
+    ], 
+    "deps/layer/layer-basic/lib/charms/layer/execd.py": [
+      "ubuntuvnf", 
+      "static", 
+      "fda8bd491032db1db8ddaf4e99e7cc878c6fb5432efe1f91cadb5b34765d076d"
+    ], 
+    "hooks/upgrade-charm": [
+      "layer:basic", 
+      "static", 
+      "8fb6559bf4d4b7cdf1b857564c1d7265df98e863a4746fcbae092f141e59d97e"
+    ], 
+    "actions/generate-ssh-key": [
+      "layer:sshproxy", 
+      "static", 
+      "d88c053583ba9f9f11051bd8162b970e48850c62f5a489f07a631cf4a19da503"
+    ], 
+    "wheelhouse/Tempita-0.5.2.tar.gz": [
+      "layer:basic", 
+      "dynamic", 
+      "cacecf0baa674d356641f1d406b8bff1d756d739c46b869a54de515d08e6fc9c"
+    ], 
+    "wheelhouse/six-1.11.0.tar.gz": [
+      "layer:basic", 
+      "dynamic", 
+      "70e8a77beed4562e7f14fe23a786b54f6296e34344c23bc42f07b15018ff98e9"
+    ], 
+    "deps/layer/vnfproxy/tests/10-deploy": [
+      "ubuntuvnf", 
+      "static", 
+      "32dccf698d07a61c23ed35073b30ee5d11278595c4bc45dae1194efab65ef626"
+    ], 
+    "tox.ini": [
+      "layer:basic", 
+      "static", 
+      "00b57a776ac313e92a52daa05d1fdb6056c21b3105b643d32610fd937664321b"
+    ], 
+    "wheelhouse/pyaml-17.12.1.tar.gz": [
+      "layer:basic", 
+      "dynamic", 
+      "66623c52f34d83a2c0fc963e08e8b9d0c13d88404e3b43b1852ef71eda19afa3"
+    ], 
+    "deps/layer/layer-sshproxy/actions/verify-ssh-credentials": [
+      "ubuntuvnf", 
+      "static", 
+      "d88c053583ba9f9f11051bd8162b970e48850c62f5a489f07a631cf4a19da503"
+    ], 
+    "deps/layer/layer-basic/bin/layer_option": [
+      "ubuntuvnf", 
+      "static", 
+      "621b556cd208005e131e9f648859294347da9376609745a73ca2e808dd2032f9"
+    ], 
+    "deps/layer/layer-basic/hooks/config-changed": [
+      "ubuntuvnf", 
+      "static", 
+      "f976e7ff3e347d44dac22626507f2a88042ba913aeebca7ffdcd5f6179b83683"
+    ], 
+    "deps/layer/layer-sshproxy/actions.yaml": [
+      "ubuntuvnf", 
+      "static", 
+      "ebbc2dc3462c8c8ed70f4eee6508121d9b7130c25ab18b63ca6244a4682bb889"
+    ], 
+    "deps/layer/vnfproxy/config.yaml": [
+      "ubuntuvnf", 
+      "static", 
+      "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    ], 
+    "layer.yaml": [
+      "ubuntuvnf", 
+      "dynamic", 
+      "6cbfc09ab62b3589a2b3fefc71ee4a90d722327d6c07306426b49fcc2dbf8b62"
+    ], 
+    "deps/layer/layer-basic/lib/charms/layer/basic.py": [
+      "ubuntuvnf", 
+      "static", 
+      "d09706ef3a224eb60d34366a2867c382791aa30157ab5b77eda37f29731df2e2"
+    ], 
+    "lib/charms/layer/__init__.py": [
+      "layer:basic", 
+      "static", 
+      "71a8b901f7e64a6b1b61959fc25819bafc9c9905e37a918615b9f949295095a4"
+    ], 
+    "wheelhouse/charms.reactive-0.6.0.tar.gz": [
+      "layer:basic", 
+      "dynamic", 
+      "a1c2a00decfdaa51f58ffbadac5cb394288af40a1fb3bebdbf9909566fdeeb84"
+    ], 
+    "actions/verify-ssh-credentials": [
+      "layer:sshproxy", 
+      "static", 
+      "d88c053583ba9f9f11051bd8162b970e48850c62f5a489f07a631cf4a19da503"
+    ], 
+    "lib/charms/layer/basic.py": [
+      "layer:basic", 
+      "static", 
+      "d09706ef3a224eb60d34366a2867c382791aa30157ab5b77eda37f29731df2e2"
+    ], 
+    "wheelhouse/pycrypto-2.6.1.tar.gz": [
+      "layer:sshproxy", 
+      "dynamic", 
+      "f2ce1e989b272cfcb677616763e0a2e7ec659effa67a88aa92b3a65528f60a3c"
+    ], 
+    "deps/layer/layer-basic/hooks/update-status": [
+      "ubuntuvnf", 
+      "static", 
+      "f976e7ff3e347d44dac22626507f2a88042ba913aeebca7ffdcd5f6179b83683"
+    ], 
+    "deps/layer/vnfproxy/tests/00-setup": [
+      "ubuntuvnf", 
+      "static", 
+      "111c079b81d260bbcd716dcf41672372a4cf4aaa14154b6c3055deeedae37a06"
+    ], 
+    "deps/layer/vnfproxy/actions/upgrade": [
+      "ubuntuvnf", 
+      "static", 
+      "a9e009d4b4aa5fa5c6139723bbd56ca46cde4c426618442cf696c565b8ba8172"
+    ], 
+    "hooks/collect-metrics": [
+      "layer:vnfproxy", 
+      "static", 
+      "b7ea916d506ccc673fd07e2b63588271d9f3ed1b52ac1b2adb949b22f00d3f93"
+    ], 
+    "metadata.yaml": [
+      "ubuntuvnf", 
+      "dynamic", 
+      "7c2d8f5708d8bd77596c0f7f172ecc7474e5961b38f1ae959f5fe4d51c395953"
+    ], 
+    "deps/layer/layer-sshproxy/lib/charms/sshproxy.py": [
+      "ubuntuvnf", 
+      "static", 
+      "bc6b49126cf7a889a7471023b53ab11e450ec2efd145cf7ea2315013d6d4a923"
+    ], 
+    "deps/layer/layer-basic/lib/charms/layer/__init__.py": [
+      "ubuntuvnf", 
+      "static", 
+      "71a8b901f7e64a6b1b61959fc25819bafc9c9905e37a918615b9f949295095a4"
+    ], 
+    "reactive/vnfproxy.py": [
+      "layer:vnfproxy", 
+      "static", 
+      "4b3ccba899d41cc33454835b756fba60d310c34781f77cb2b7d440e39f017425"
+    ], 
+    "deps/layer/layer-basic/reactive/__init__.py": [
+      "ubuntuvnf", 
+      "static", 
+      "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    ], 
+    "actions/reboot": [
+      "layer:vnfproxy", 
+      "static", 
+      "a9e009d4b4aa5fa5c6139723bbd56ca46cde4c426618442cf696c565b8ba8172"
+    ], 
+    "deps/layer/layer-sshproxy/config.yaml": [
+      "ubuntuvnf", 
+      "static", 
+      "b0b45b70571a4de452b5103a8991b2e78c599b2d7e83dcb778f26264874a5d09"
+    ], 
+    "hooks/start": [
+      "layer:basic", 
+      "static", 
+      "f976e7ff3e347d44dac22626507f2a88042ba913aeebca7ffdcd5f6179b83683"
+    ], 
+    "wheelhouse/MarkupSafe-1.0.tar.gz": [
+      "layer:basic", 
+      "dynamic", 
+      "a6be69091dac236ea9c6bc7d012beab42010fa914c459791d627dad4910eb665"
+    ], 
+    "deps/layer/layer-sshproxy/README.md": [
+      "ubuntuvnf", 
+      "static", 
+      "50e820ef48f60ca8ca1b327dba43d202a1f9ebaaaf31da7f64dc43d6bd17da7d"
+    ], 
+    "deps/layer/layer-sshproxy/actions/run": [
+      "ubuntuvnf", 
+      "static", 
+      "d88c053583ba9f9f11051bd8162b970e48850c62f5a489f07a631cf4a19da503"
+    ], 
+    "hooks/stop": [
+      "layer:basic", 
+      "static", 
+      "f976e7ff3e347d44dac22626507f2a88042ba913aeebca7ffdcd5f6179b83683"
+    ], 
+    "actions/stop": [
+      "layer:vnfproxy", 
+      "static", 
+      "ecd387df9e96d72f9484b4e7ef5eee5bfb21e28f4da1270bdaa9d64879f2ef2a"
+    ], 
+    "deps/layer/layer-basic/layer.yaml": [
+      "ubuntuvnf", 
+      "static", 
+      "fbd3e3a22f3b8b1e7656e12f5db0ebf69c145b8e8b59c125e6faf043cba50b9b"
+    ], 
+    "deps/layer/layer-sshproxy/actions/generate-ssh-key": [
+      "ubuntuvnf", 
+      "static", 
+      "d88c053583ba9f9f11051bd8162b970e48850c62f5a489f07a631cf4a19da503"
+    ], 
+    "deps/layer/vnfproxy/layer.yaml": [
+      "ubuntuvnf", 
+      "static", 
+      "fa414abaa6cf86c28562fb4aef7a5679bc1188185fbddca9c2434491e7edbb74"
+    ], 
+    "deps/layer/layer-basic/hooks/upgrade-charm": [
+      "ubuntuvnf", 
+      "static", 
+      "8fb6559bf4d4b7cdf1b857564c1d7265df98e863a4746fcbae092f141e59d97e"
+    ], 
+    "deps/layer/vnfproxy/actions.yaml": [
+      "ubuntuvnf", 
+      "static", 
+      "58c73ec5db20980d153bbe68cc164977677810fe8bd4ced1d249d9a75a3d436e"
+    ], 
+    "deps/layer/vnfproxy/metadata.yaml": [
+      "ubuntuvnf", 
+      "static", 
+      "338e81c6da9523dbe8f87d0fb57592423da53c15b98727c20ec531783e1697ba"
+    ], 
+    "requirements.txt": [
+      "layer:basic", 
+      "static", 
+      "0f1c70d27e26005a96d66ad54482877ae20f7737693c833e29dd72bd6ac24892"
+    ]
+  }
+}

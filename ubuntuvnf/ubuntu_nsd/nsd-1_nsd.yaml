@@ -1,0 +1,35 @@
+nsd:nsd-catalog:
+    nsd:nsd:
+    -   nsd:constituent-vnfd:
+        -   nsd:member-vnf-index: '1'
+            nsd:start-by-default: 'true'
+            nsd:vnfd-id-ref: ubuntuvnf_vnfd
+        nsd:id: a8fa4bf9-12e3-4b68-9169-1ae51aab404f
+        nsd:name: ubuntu_nsd
+        nsd:scaling-group-descriptor:
+        -   nsd:max-instance-count: '10'
+            nsd:min-instance-count: '0'
+            nsd:name: scaling-group-1
+            nsd:scaling-policy:
+            -   nsd:cooldown-time: '100'
+                nsd:enabled: 'true'
+                nsd:name: scaling-policy-1
+                nsd:scale-in-operation-type: AND
+                nsd:scale-out-operation-type: OR
+                nsd:scaling-type: manual
+                nsd:threshold-time: '10'
+            nsd:vnfd-member:
+            -   nsd:count: '1'
+                nsd:member-vnf-index-ref: '1'
+        nsd:short-name: ubuntu_nsd
+        nsd:vendor: Whitestack
+        nsd:vld:
+        -   nsd:id: mgmt
+            nsd:mgmt-network: 'true'
+            nsd:name: mgmt
+            nsd:type: ELAN
+            nsd:vim-network-name: mgmt
+            nsd:vnfd-connection-point-ref:
+            -   nsd:member-vnf-index-ref: '1'
+                nsd:vnfd-connection-point-ref: eth0
+                nsd:vnfd-id-ref: ubuntuvnf_vnfd
